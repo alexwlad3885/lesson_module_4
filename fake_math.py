@@ -1,6 +1,8 @@
+#   модуль fake_math.py
+
 def divide(first, second):
     if second != 0:
         result = first / second
-        print(result)
+        return result
     else:
-        print("Ошибка")
+        return "Ошибка"
